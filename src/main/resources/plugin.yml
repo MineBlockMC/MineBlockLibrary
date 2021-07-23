@@ -1,16 +1,8 @@
 name: ${project.name}
-author: DreamVoid
+author: MineBlock Team.
 description: ${project.description}
-main: me.dreamvoid.template.main
+main: org.mineblock.library.main
 version: ${project.version}
-api-version: 1.16
-prefix: DreamVoidPlugin
+api-version: 1.13
+prefix: MineBlockPlugin
 webside: ${project.url}
-commands:
-  some-command:
-    description: Some plugin command.
-    permission: some-permission
-permissions:
-  some-permission:
-    description: Some plugin permission.
-    default: op
